@@ -4,14 +4,20 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
   <foaf:Person>
-    <foaf:name>John Doe</foaf:name>
-    <foaf:title>Software Engineer</foaf:title>
+    <foaf:name>Randrianarisona Aaron</foaf:name>
+    <foaf:title>Etudiant</foaf:title>
     <foaf:homepage rdf:resource="index.html"/>
-    <foaf:mbox rdf:resource="mailto:johndoe@example.com"/>
-    <foaf:img rdf:resource="http://www.example.com/images/johndoe.jpg"/>
+    <foaf:mbox rdf:resource="example@tudiant.univ-lr.fr"/>
     <foaf:knows>
       <foaf:Person>
         <foaf:name>Jane Smith</foaf:name>
+        <foaf:homepage rdf:resource="janehome.html"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:name>Pierre lelac</foaf:name>
+        <foaf:homepage rdf:resource="pierrehome.html"/>
       </foaf:Person>
     </foaf:knows>
   </foaf:Person>
